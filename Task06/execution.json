@@ -1,0 +1,28 @@
+[
+  {
+    "source": "complete.cpp",
+    "case": "given_example",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task06/complete.cpp -o build/Task06_complete.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:19:56.304125+00:00",
+    "exit": 0,
+    "stdout": "Fare Rs 10.00  balance Rs 90\nFare Rs 36.00  balance Rs 54\nDenied (low balance)  balance Rs 54\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "356cf4835b9bb50605f006bebc9e123970eaee37b724a0c51fc0f214cfb4528a"
+  },
+  {
+    "source": "boundaries.cpp",
+    "case": "extra_journeys",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task06/boundaries.cpp -o build/Task06_boundaries.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:19:57.046323+00:00",
+    "exit": 0,
+    "stdout": "10:00 peak=false fare Rs 30.00 allowed=true balance Rs 50.00\n20:00 peak=false fare Rs 30.00 allowed=true balance Rs 50.00\nSwitch/array and time checks: 5/5\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "060d577470390892fdaafa3d0934ceb1fe448041f3155ca483a4e855351e3232"
+  }
+]

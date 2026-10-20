@@ -1,0 +1,4 @@
+[
+ {"source":"complete.cpp","cases":[{"name":"given_example","input":"input.txt","expected":"Fare Rs 10.00  balance Rs 90\nFare Rs 36.00  balance Rs 54\nDenied (low balance)  balance Rs 54\n"}]},
+ {"source":"boundaries.cpp","cases":[{"name":"extra_journeys","input":"input.txt"}]}
+]
