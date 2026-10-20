@@ -1,0 +1,47 @@
+ALGORITHM ComputeAndPayFare(zone, hour, minute, category, balance)
+INPUT: zone, 24-hour time, passenger category, balance in paise
+OUTPUT: fare in paise, allowed/denied status, new balance
+BEGIN
+    IF zone is unknown OR hour NOT IN [0,23] OR minute NOT IN [0,59] THEN
+        OUTPUT "Invalid journey"
+        RETURN
+    END IF
+    CASE zone OF
+        Inner:  base <- BASE_PAISE[0]
+        Middle: base <- BASE_PAISE[1]
+        Outer:  base <- BASE_PAISE[2]
+    END CASE
+    peak <- (hour >= 8 AND hour < 10) OR (hour >= 17 AND hour < 20)
+    multiplier <- 100
+    IF peak THEN multiplier <- 120 END IF
+    concession <- 0
+    IF category = Student THEN concession <- 10 END IF
+    IF category = Senior THEN concession <- 20 END IF
+    numerator <- base * multiplier * (100 - concession)
+    fare <- ROUND_HALF_UP(numerator / 10000)
+    IF balance >= MIN_BALANCE_PAISE AND fare <= balance - MIN_BALANCE_PAISE THEN
+        balance <- balance - fare
+        OUTPUT fare, "Allowed", balance
+    ELSE
+        OUTPUT fare, "Denied", balance
+    END IF
+END
+
+ALGORITHM ProcessDay(journeys)
+INPUT: a finite sequence of journeys
+OUTPUT: one result per valid journey and an invalid-input message otherwise
+BEGIN
+    FOR EACH journey IN journeys DO
+        IF journey is invalid THEN
+            OUTPUT "Skipped invalid journey"
+            CONTINUE
+        END IF
+        CALL ComputeAndPayFare(journey inputs)
+    END FOR
+END
+
+Notation: conventional structured pseudocode. The separate SIMATS Engineering
+style guide was not provided or found, so exact institutional conformance is
+not asserted. This pseudocode is saved in Git before writing the Task6 C++.
+The mandated skeleton has regular passengers only; the general algorithm above
+also states the agreed concession extension used by the shared fare system.
