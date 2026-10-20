@@ -1,0 +1,15 @@
+[
+  {
+    "source": "main.cpp",
+    "case": "all_tests",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task09/main.cpp -o build/Task09_main.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:23:22.056455+00:00",
+    "exit": 0,
+    "stdout": "CASE|EXPECTED|ACTUAL|RESULT\nInner offpeak|10.00,allow,90.00|10.00,allow,90.00|PASS\nMiddle offpeak|20.00,allow,80.00|20.00,allow,80.00|PASS\nOuter offpeak|30.00,allow,70.00|30.00,allow,70.00|PASS\nInner peak|12.00,allow,88.00|12.00,allow,88.00|PASS\nMiddle peak|24.00,allow,76.00|24.00,allow,76.00|PASS\nOuter peak|36.00,allow,64.00|36.00,allow,64.00|PASS\n07:59|10.00,allow,90.00|10.00,allow,90.00|PASS\n08:00|12.00,allow,88.00|12.00,allow,88.00|PASS\n09:59|12.00,allow,88.00|12.00,allow,88.00|PASS\n10:00|10.00,allow,90.00|10.00,allow,90.00|PASS\n16:59|10.00,allow,90.00|10.00,allow,90.00|PASS\n17:00|12.00,allow,88.00|12.00,allow,88.00|PASS\n19:59|12.00,allow,88.00|12.00,allow,88.00|PASS\n20:00|10.00,allow,90.00|10.00,allow,90.00|PASS\nExactly Rs50 remains|10.00,allow,50.00|10.00,allow,50.00|PASS\nOne paisa below reserve|10.00,deny,59.99|10.00,deny,59.99|PASS\nStudent Inner peak|10.80,allow,89.20|10.80,allow,89.20|PASS\nStudent Middle offpeak|18.00,allow,82.00|18.00,allow,82.00|PASS\nSenior Outer peak|28.80,allow,71.20|28.80,allow,71.20|PASS\nSenior Outer offpeak|24.00,allow,76.00|24.00,allow,76.00|PASS\nReject zone -1|1|1|PASS\nReject zone 3|1|1|PASS\nReject zone 99|1|1|PASS\nReject hour -1|1|1|PASS\nReject hour 24|1|1|PASS\nReject minute 60|1|1|PASS\nReject category 99|1|1|PASS\nReject negative initial balance|1|1|PASS\nReject negative recharge|0|0|PASS\nReject zero recharge|0|0|PASS\nRejected recharges leave balance|10000|10000|PASS\nAccept positive recharge|1|1|PASS\nPositive recharge new balance|10001|10001|PASS\nReject recharge above application cap|0|0|PASS\nReject huge recharge|0|0|PASS\nReject negative fare|0|0|PASS\nReject huge fare safely|0|0|PASS\nLetters then valid hour recovery|1|1|PASS\nHalf-paisa rounds up|101|101|PASS\nBelow half-paisa rounds down|100|100|PASS\nFive-journey fare 1|1000|1000|PASS\nFive-journey payment 1|1|1|PASS\nFive-journey fare 2|2400|2400|PASS\nFive-journey payment 2|1|1|PASS\nFive-journey fare 3|3000|3000|PASS\nFive-journey payment 3|1|1|PASS\nFive-journey fare 4|1080|1080|PASS\nFive-journey payment 4|1|1|PASS\nFive-journey fare 5|2880|2880|PASS\nFive-journey payment 5|1|1|PASS\nFive-journey hand total paise|10360|10360|PASS\nFive-journey remaining paise|9640|9640|PASS\nSUMMARY 52/52 passed\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "bbd0faee19ac4c2edf5d607e02d83440d1dabaa250e17e1f97e9ed373189d702"
+  }
+]

@@ -1,0 +1,63 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+    *{box-sizing:border-box}body{margin:0;background:#edf1f4;color:#132736;font-family:Arial,sans-serif;padding:32px;width:1100px}
+    header{background:#123e52;color:white;padding:24px;border-radius:10px}h1{margin:0 0 10px;font-size:26px}p{line-height:1.45;margin:8px 0}
+    h2{font-size:17px;margin:26px 0 10px}pre{background:#11232d;color:#edf5f7;border-radius:8px;padding:20px;font:14px/1.55 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}
+    footer{font-size:12px;margin-top:20px;color:#4d636d}</style></head><body><header><h1>Task 09 - Verified execution evidence</h1>
+    <p>D Hoshea Paul | 192471019 | TDM64 GCC 4.9.2 | C++14</p><p>Actual captured stdout/stderr from compiled programs, displayed as an execution transcript.</p></header><h2>main.cpp / all_tests</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task09/main.cpp -o build/Task09_main.exe
+$ run main.cpp &lt; input.txt
+CASE|EXPECTED|ACTUAL|RESULT
+Inner offpeak|10.00,allow,90.00|10.00,allow,90.00|PASS
+Middle offpeak|20.00,allow,80.00|20.00,allow,80.00|PASS
+Outer offpeak|30.00,allow,70.00|30.00,allow,70.00|PASS
+Inner peak|12.00,allow,88.00|12.00,allow,88.00|PASS
+Middle peak|24.00,allow,76.00|24.00,allow,76.00|PASS
+Outer peak|36.00,allow,64.00|36.00,allow,64.00|PASS
+07:59|10.00,allow,90.00|10.00,allow,90.00|PASS
+08:00|12.00,allow,88.00|12.00,allow,88.00|PASS
+09:59|12.00,allow,88.00|12.00,allow,88.00|PASS
+10:00|10.00,allow,90.00|10.00,allow,90.00|PASS
+16:59|10.00,allow,90.00|10.00,allow,90.00|PASS
+17:00|12.00,allow,88.00|12.00,allow,88.00|PASS
+19:59|12.00,allow,88.00|12.00,allow,88.00|PASS
+20:00|10.00,allow,90.00|10.00,allow,90.00|PASS
+Exactly Rs50 remains|10.00,allow,50.00|10.00,allow,50.00|PASS
+One paisa below reserve|10.00,deny,59.99|10.00,deny,59.99|PASS
+Student Inner peak|10.80,allow,89.20|10.80,allow,89.20|PASS
+Student Middle offpeak|18.00,allow,82.00|18.00,allow,82.00|PASS
+Senior Outer peak|28.80,allow,71.20|28.80,allow,71.20|PASS
+Senior Outer offpeak|24.00,allow,76.00|24.00,allow,76.00|PASS
+Reject zone -1|1|1|PASS
+Reject zone 3|1|1|PASS
+Reject zone 99|1|1|PASS
+Reject hour -1|1|1|PASS
+Reject hour 24|1|1|PASS
+Reject minute 60|1|1|PASS
+Reject category 99|1|1|PASS
+Reject negative initial balance|1|1|PASS
+Reject negative recharge|0|0|PASS
+Reject zero recharge|0|0|PASS
+Rejected recharges leave balance|10000|10000|PASS
+Accept positive recharge|1|1|PASS
+Positive recharge new balance|10001|10001|PASS
+Reject recharge above application cap|0|0|PASS
+Reject huge recharge|0|0|PASS
+Reject negative fare|0|0|PASS
+Reject huge fare safely|0|0|PASS
+Letters then valid hour recovery|1|1|PASS
+Half-paisa rounds up|101|101|PASS
+Below half-paisa rounds down|100|100|PASS
+Five-journey fare 1|1000|1000|PASS
+Five-journey payment 1|1|1|PASS
+Five-journey fare 2|2400|2400|PASS
+Five-journey payment 2|1|1|PASS
+Five-journey fare 3|3000|3000|PASS
+Five-journey payment 3|1|1|PASS
+Five-journey fare 4|1080|1080|PASS
+Five-journey payment 4|1|1|PASS
+Five-journey fare 5|2880|2880|PASS
+Five-journey payment 5|1|1|PASS
+Five-journey hand total paise|10360|10360|PASS
+Five-journey remaining paise|9640|9640|PASS
+SUMMARY 52/52 passed
+
+Exit status: 0</pre><footer>Source hashes, timestamps, commands and exit statuses are recorded in execution.json. This page displays captured execution; it is not a simulated console.</footer></body></html>

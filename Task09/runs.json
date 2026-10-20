@@ -1,0 +1,1 @@
+[{"source":"main.cpp","cases":[{"name":"all_tests","input":"input.txt","expected_contains":["Five-journey hand total paise|10360|10360|PASS","Five-journey remaining paise|9640|9640|PASS"]}]}]
