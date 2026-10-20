@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+    *{box-sizing:border-box}body{margin:0;background:#edf1f4;color:#132736;font-family:Arial,sans-serif;padding:32px;width:1100px}
+    header{background:#123e52;color:white;padding:24px;border-radius:10px}h1{margin:0 0 10px;font-size:26px}p{line-height:1.45;margin:8px 0}
+    h2{font-size:17px;margin:26px 0 10px}pre{background:#11232d;color:#edf5f7;border-radius:8px;padding:20px;font:14px/1.55 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}
+    footer{font-size:12px;margin-top:20px;color:#4d636d}</style></head><body><header><h1>Task 10 - Verified execution evidence</h1>
+    <p>D Hoshea Paul | 192471019 | TDM64 GCC 4.9.2 | C++14</p><p>Actual captured stdout/stderr from compiled programs, displayed as an execution transcript.</p></header><h2>main.cpp / measured_totals</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task10/main.cpp -o build/Task10_main.exe
+$ run main.cpp &lt; input.txt
+Accumulator bytes: int=4 long long=8 double=8
+Cycle fares paise: 1200 2000 3600 1800 2880
+journeys,exact_paise,double_rupees,error_rupees,int_us,double_us,int_safe,first_int_overflow
+20000,45920000,459199.999999969092,-0.000000030908,12,51,yes,0
+500000,1148000000,11480000.000010456890,0.000010456890,292,1293,yes,0
+3000000,6888000000,68879999.999236658216,-0.000763341784,1768,7738,no,935316
+Microbenchmark includes volatile reads/writes and loop overhead; not a gate throughput guarantee.
+Hand total / overflow checks: PASS
+
+Exit status: 0</pre><footer>Source hashes, timestamps, commands and exit statuses are recorded in execution.json. This page displays captured execution; it is not a simulated console.</footer></body></html>

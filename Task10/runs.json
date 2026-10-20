@@ -1,0 +1,1 @@
+[{"source":"main.cpp","cases":[{"name":"measured_totals","input":"input.txt","expected_contains":["20000,45920000,","500000,1148000000,","3000000,6888000000,","no,935316","Hand total / overflow checks: PASS"]}]}]

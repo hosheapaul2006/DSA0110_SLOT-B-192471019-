@@ -1,0 +1,8 @@
+Accumulator bytes: int=4 long long=8 double=8
+Cycle fares paise: 1200 2000 3600 1800 2880
+journeys,exact_paise,double_rupees,error_rupees,int_us,double_us,int_safe,first_int_overflow
+20000,45920000,459199.999999969092,-0.000000030908,12,51,yes,0
+500000,1148000000,11480000.000010456890,0.000010456890,292,1293,yes,0
+3000000,6888000000,68879999.999236658216,-0.000763341784,1768,7738,no,935316
+Microbenchmark includes volatile reads/writes and loop overhead; not a gate throughput guarantee.
+Hand total / overflow checks: PASS
