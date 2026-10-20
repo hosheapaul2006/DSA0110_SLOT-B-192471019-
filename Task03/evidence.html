@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+    *{box-sizing:border-box}body{margin:0;background:#edf1f4;color:#132736;font-family:Arial,sans-serif;padding:32px;width:1100px}
+    header{background:#123e52;color:white;padding:24px;border-radius:10px}h1{margin:0 0 10px;font-size:26px}p{line-height:1.45;margin:8px 0}
+    h2{font-size:17px;margin:26px 0 10px}pre{background:#11232d;color:#edf5f7;border-radius:8px;padding:20px;font:14px/1.55 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}
+    footer{font-size:12px;margin-top:20px;color:#4d636d}</style></head><body><header><h1>Task 03 - Verified execution evidence</h1>
+    <p>D Hoshea Paul | 192471019 | TDM64 GCC 4.9.2 | C++14</p><p>Actual captured stdout/stderr from compiled programs, displayed as an execution transcript.</p></header><h2>main.cpp / sizes_and_precision</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task03/main.cpp -o build/Task03_main.exe
+$ run main.cpp &lt; input.txt
+bool bytes=1 lowest=0 max=1
+char bytes=1 lowest=-128 max=127
+int bytes=4 lowest=-2147483648 max=2147483647
+long long bytes=8 lowest=-9223372036854775808 max=9223372036854775807
+unsigned bytes=4 lowest=0 max=4294967295
+float bytes=4 lowest=-3.40282e+038 max=3.40282e+038
+double bytes=8 lowest=-1.79769e+308 max=1.79769e+308
+auto journeys is long long: true
+INT_MAX=2147483647 LLONG_MAX=9223372036854775807
+Network maximum baseline total paise=10800000000
+First 3600-paise addition exceeding int: 596524
+n=20000 diagnostic Rs10.10 total=202000.000000071974 exact paise=20200000 error rupees=0.000000071974 whole-Rs36 error=0.000000000000
+n=500000 diagnostic Rs10.10 total=5049999.999995739199 exact paise=505000000 error rupees=-0.000004260801 whole-Rs36 error=0.000000000000
+n=3000000 diagnostic Rs10.10 total=30300000.001558292657 exact paise=3030000000 error rupees=0.001558292657 whole-Rs36 error=0.000000000000
+int + double + bool = 11.500000000000
+
+Exit status: 0</pre><footer>Source hashes, timestamps, commands and exit statuses are recorded in execution.json. This page displays captured execution; it is not a simulated console.</footer></body></html>

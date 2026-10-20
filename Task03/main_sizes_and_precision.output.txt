@@ -1,0 +1,15 @@
+bool bytes=1 lowest=0 max=1
+char bytes=1 lowest=-128 max=127
+int bytes=4 lowest=-2147483648 max=2147483647
+long long bytes=8 lowest=-9223372036854775808 max=9223372036854775807
+unsigned bytes=4 lowest=0 max=4294967295
+float bytes=4 lowest=-3.40282e+038 max=3.40282e+038
+double bytes=8 lowest=-1.79769e+308 max=1.79769e+308
+auto journeys is long long: true
+INT_MAX=2147483647 LLONG_MAX=9223372036854775807
+Network maximum baseline total paise=10800000000
+First 3600-paise addition exceeding int: 596524
+n=20000 diagnostic Rs10.10 total=202000.000000071974 exact paise=20200000 error rupees=0.000000071974 whole-Rs36 error=0.000000000000
+n=500000 diagnostic Rs10.10 total=5049999.999995739199 exact paise=505000000 error rupees=-0.000004260801 whole-Rs36 error=0.000000000000
+n=3000000 diagnostic Rs10.10 total=30300000.001558292657 exact paise=3030000000 error rupees=0.001558292657 whole-Rs36 error=0.000000000000
+int + double + bool = 11.500000000000
