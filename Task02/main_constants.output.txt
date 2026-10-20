@@ -1,0 +1,6 @@
+Fares (paise): 1000 2000 3000
+Macro/const/constexpr: 20 20 20
+Legacy enum index: 0
+Scoped zone index (explicit): 0
+Minimum Rs 50.00
+Student Inner peak Rs 10.80

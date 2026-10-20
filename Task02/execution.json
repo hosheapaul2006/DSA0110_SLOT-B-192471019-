@@ -1,0 +1,15 @@
+[
+  {
+    "source": "main.cpp",
+    "case": "constants",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task02/main.cpp -o build/Task02_main.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:15:31.546295+00:00",
+    "exit": 0,
+    "stdout": "Fares (paise): 1000 2000 3000\nMacro/const/constexpr: 20 20 20\nLegacy enum index: 0\nScoped zone index (explicit): 0\nMinimum Rs 50.00\nStudent Inner peak Rs 10.80\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "a64db596f40606ace467685f821a05c235f88b6403efa6c42aba68cd6cea9e8f"
+  }
+]

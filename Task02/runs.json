@@ -1,0 +1,1 @@
+[{"source":"main.cpp","cases":[{"name":"constants","input":"input.txt","expected":"Fares (paise): 1000 2000 3000\nMacro/const/constexpr: 20 20 20\nLegacy enum index: 0\nScoped zone index (explicit): 0\nMinimum Rs 50.00\nStudent Inner peak Rs 10.80\n"}]}]
