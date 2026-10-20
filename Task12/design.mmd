@@ -1,0 +1,26 @@
+classDiagram
+class Journey {
+  +Zone from
+  +Zone to
+  +Date date
+  +int hour
+  +int minute
+  +Category category
+}
+class MonthlyPass {
+  -int year_
+  -int month_
+  -Zone first_
+  -Zone second_
+  +covers(journey) bool
+}
+class FareRules {
+  +quote(journey, pass) Quote
+}
+class SmartCard {
+  -long long balance_
+  +deduct(fare) bool
+}
+Journey --> FareRules : price request
+MonthlyPass --> FareRules : entitlement
+FareRules --> SmartCard : quoted fare

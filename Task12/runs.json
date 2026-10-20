@@ -1,0 +1,1 @@
+[{"source":"main.cpp","cases":[{"name":"extension_tests","input":"input.txt","expected_contains":["Airport Saturday peak replaced|54.00,pass=0,weekend=1,peak=0|54.00,pass=0,weekend=1,peak=0|PASS","1000 pass trips have no count limit|1|1|PASS"]}]}]
