@@ -1,0 +1,5 @@
+Invalid integer line
+Integer/hour out of range
+Integer/hour out of range
+Invalid integer line
+Accepted hour 10

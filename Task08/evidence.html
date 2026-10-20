@@ -1,0 +1,84 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+    *{box-sizing:border-box}body{margin:0;background:#edf1f4;color:#132736;font-family:Arial,sans-serif;padding:32px;width:1100px}
+    header{background:#123e52;color:white;padding:24px;border-radius:10px}h1{margin:0 0 10px;font-size:26px}p{line-height:1.45;margin:8px 0}
+    h2{font-size:17px;margin:26px 0 10px}pre{background:#11232d;color:#edf5f7;border-radius:8px;padding:20px;font:14px/1.55 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}
+    footer{font-size:12px;margin-top:20px;color:#4d636d}</style></head><body><header><h1>Task 08 - Verified execution evidence</h1>
+    <p>D Hoshea Paul | 192471019 | TDM64 GCC 4.9.2 | C++14</p><p>Actual captured stdout/stderr from compiled programs, displayed as an execution transcript.</p></header><h2>main.cpp / invalid_recovery</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe
+$ run main.cpp &lt; input.txt
+[input]
+abc
+10000
+9
+1
+twenty
+10junk
+10
+60
+0
+2
+
+[stdout]
+Balance in paise: Invalid number; try again
+Balance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Out of range; try again
+Zone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Invalid number; try again
+Hour (0-23): Unexpected trailing characters; try again
+Hour (0-23): Minute (0-59): Out of range; try again
+Minute (0-59): Category (0 Regular, 1 Student, 2 Senior): 
+JOURNEY REPORT
+Status          Fare (Rs)       Balance (Rs)
+Allowed         16.00           84.00
+Display precision example: 1.00
+
+Exit status: 0</pre><h2>main.cpp / exact_reserve</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe
+$ run main.cpp &lt; exact_reserve.txt
+[input]
+6000
+0
+10
+0
+0
+
+[stdout]
+Balance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Minute (0-59): Category (0 Regular, 1 Student, 2 Senior): 
+JOURNEY REPORT
+Status          Fare (Rs)       Balance (Rs)
+Allowed         10.00           50.00
+Display precision example: 1.00
+
+Exit status: 0</pre><h2>main.cpp / low_balance</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe
+$ run main.cpp &lt; low_balance.txt
+[input]
+5999
+0
+10
+0
+0
+
+[stdout]
+Balance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Minute (0-59): Category (0 Regular, 1 Student, 2 Senior): 
+JOURNEY REPORT
+Status          Fare (Rs)       Balance (Rs)
+Denied          10.00           59.99
+Display precision example: 1.00
+
+Exit status: 0</pre><h2>main.cpp / eof</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe
+$ run main.cpp &lt; eof.txt
+Balance in paise: End of input
+
+Exit status: 2</pre><h2>getline_stoi.cpp / strict_lines</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/getline_stoi.cpp -o build/Task08_getline_stoi.exe
+$ run getline_stoi.cpp &lt; line_input.txt
+[input]
+abc
+24
+999999999999999999999999
+10junk
+10
+
+[stdout]
+Invalid integer line
+Integer/hour out of range
+Integer/hour out of range
+Invalid integer line
+Accepted hour 10
+
+Exit status: 0</pre><footer>Source hashes, timestamps, commands and exit statuses are recorded in execution.json. This page displays captured execution; it is not a simulated console.</footer></body></html>

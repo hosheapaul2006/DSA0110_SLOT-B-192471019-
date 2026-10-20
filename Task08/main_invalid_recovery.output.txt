@@ -1,0 +1,10 @@
+Balance in paise: Invalid number; try again
+Balance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Out of range; try again
+Zone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Invalid number; try again
+Hour (0-23): Unexpected trailing characters; try again
+Hour (0-23): Minute (0-59): Out of range; try again
+Minute (0-59): Category (0 Regular, 1 Student, 2 Senior): 
+JOURNEY REPORT
+Status          Fare (Rs)       Balance (Rs)
+Allowed         16.00           84.00
+Display precision example: 1.00

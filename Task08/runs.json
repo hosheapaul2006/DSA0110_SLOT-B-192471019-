@@ -1,0 +1,9 @@
+[
+ {"source":"main.cpp","cases":[
+   {"name":"invalid_recovery","input":"input.txt","expected_contains":["Invalid number; try again","Out of range; try again","Unexpected trailing characters; try again","Allowed         16.00           84.00"]},
+   {"name":"exact_reserve","input":"exact_reserve.txt","expected_contains":["Allowed         10.00           50.00"]},
+   {"name":"low_balance","input":"low_balance.txt","expected_contains":["Denied          10.00           59.99"]},
+   {"name":"eof","input":"eof.txt","exit":2,"expected":"Balance in paise: End of input\n"}
+ ]},
+ {"source":"getline_stoi.cpp","cases":[{"name":"strict_lines","input":"line_input.txt","expected":"Invalid integer line\nInteger/hour out of range\nInteger/hour out of range\nInvalid integer line\nAccepted hour 10\n"}]}
+]

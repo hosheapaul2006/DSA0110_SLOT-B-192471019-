@@ -1,0 +1,5 @@
+Balance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Minute (0-59): Category (0 Regular, 1 Student, 2 Senior): 
+JOURNEY REPORT
+Status          Fare (Rs)       Balance (Rs)
+Denied          10.00           59.99
+Display precision example: 1.00

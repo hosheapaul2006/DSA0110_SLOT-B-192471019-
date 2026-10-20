@@ -88,7 +88,8 @@ inline bool readInteger(std::istream& in, std::ostream& out, const std::string& 
                         long long minimum, long long maximum, long long& value) {
     for (;;) {
         out << prompt;
-        if (!(in >> value)) {
+        in >> value;
+        if (in.fail()) {
             if (in.eof()) { out << "End of input\n"; return false; }
             out << "Invalid number; try again\n";
             in.clear();

@@ -1,0 +1,67 @@
+[
+  {
+    "source": "main.cpp",
+    "case": "invalid_recovery",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe",
+    "input_file": "input.txt",
+    "input": "abc\n10000\n9\n1\ntwenty\n10junk\n10\n60\n0\n2\n",
+    "started_utc": "2026-10-20T14:21:52.323247+00:00",
+    "exit": 0,
+    "stdout": "Balance in paise: Invalid number; try again\nBalance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Out of range; try again\nZone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Invalid number; try again\nHour (0-23): Unexpected trailing characters; try again\nHour (0-23): Minute (0-59): Out of range; try again\nMinute (0-59): Category (0 Regular, 1 Student, 2 Senior): \nJOURNEY REPORT\nStatus          Fare (Rs)       Balance (Rs)\nAllowed         16.00           84.00\nDisplay precision example: 1.00\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc"
+  },
+  {
+    "source": "main.cpp",
+    "case": "exact_reserve",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe",
+    "input_file": "exact_reserve.txt",
+    "input": "6000\n0\n10\n0\n0\n",
+    "started_utc": "2026-10-20T14:21:52.574017+00:00",
+    "exit": 0,
+    "stdout": "Balance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Minute (0-59): Category (0 Regular, 1 Student, 2 Senior): \nJOURNEY REPORT\nStatus          Fare (Rs)       Balance (Rs)\nAllowed         10.00           50.00\nDisplay precision example: 1.00\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc"
+  },
+  {
+    "source": "main.cpp",
+    "case": "low_balance",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe",
+    "input_file": "low_balance.txt",
+    "input": "5999\n0\n10\n0\n0\n",
+    "started_utc": "2026-10-20T14:21:52.581182+00:00",
+    "exit": 0,
+    "stdout": "Balance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Minute (0-59): Category (0 Regular, 1 Student, 2 Senior): \nJOURNEY REPORT\nStatus          Fare (Rs)       Balance (Rs)\nDenied          10.00           59.99\nDisplay precision example: 1.00\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc"
+  },
+  {
+    "source": "main.cpp",
+    "case": "eof",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe",
+    "input_file": "eof.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:21:52.589321+00:00",
+    "exit": 2,
+    "stdout": "Balance in paise: End of input\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc"
+  },
+  {
+    "source": "getline_stoi.cpp",
+    "case": "strict_lines",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/getline_stoi.cpp -o build/Task08_getline_stoi.exe",
+    "input_file": "line_input.txt",
+    "input": "abc\n24\n999999999999999999999999\n10junk\n10\n",
+    "started_utc": "2026-10-20T14:21:52.964343+00:00",
+    "exit": 0,
+    "stdout": "Invalid integer line\nInteger/hour out of range\nInteger/hour out of range\nInvalid integer line\nAccepted hour 10\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "3735a94d82ac5853999b73b31a7a13b4de99e6edfeef4d6fca2aa401a1ae4b92"
+  }
+]
