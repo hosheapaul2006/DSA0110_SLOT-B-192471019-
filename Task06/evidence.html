@@ -4,15 +4,17 @@
     h2{font-size:17px;margin:26px 0 10px}pre{background:#11232d;color:#edf5f7;border-radius:8px;padding:20px;font:14px/1.55 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}
     footer{font-size:12px;margin-top:20px;color:#4d636d}</style></head><body><header><h1>Task 06 - Verified execution evidence</h1>
     <p>D Hoshea Paul | 192471019 | TDM64 GCC 4.9.2 | C++14</p><p>Actual captured stdout/stderr from compiled programs, displayed as an execution transcript.</p></header><h2>complete.cpp / given_example</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task06/complete.cpp -o build/Task06_complete.exe
-$ run complete.cpp &lt; input.txt
+$ (working directory: Task06)
+$ ../build/Task06_complete.exe &lt; input.txt
 Fare Rs 10.00  balance Rs 90
 Fare Rs 36.00  balance Rs 54
 Denied (low balance)  balance Rs 54
 
 Exit status: 0</pre><h2>boundaries.cpp / extra_journeys</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task06/boundaries.cpp -o build/Task06_boundaries.exe
-$ run boundaries.cpp &lt; input.txt
+$ (working directory: Task06)
+$ ../build/Task06_boundaries.exe &lt; input.txt
 10:00 peak=false fare Rs 30.00 allowed=true balance Rs 50.00
 20:00 peak=false fare Rs 30.00 allowed=true balance Rs 50.00
 Switch/array and time checks: 5/5
 
-Exit status: 0</pre><footer>Source hashes, timestamps, commands and exit statuses are recorded in execution.json. This page displays captured execution; it is not a simulated console.</footer></body></html>
+Exit status: 0</pre><footer>Commands above use reproducible repository paths. Exact original command arguments, source hashes, timestamps and exit statuses are recorded in execution.json. This displays captured execution; it is not a simulated console.</footer></body></html>

@@ -10,6 +10,21 @@
     "stdout": "bool bytes=1 lowest=0 max=1\nchar bytes=1 lowest=-128 max=127\nint bytes=4 lowest=-2147483648 max=2147483647\nlong long bytes=8 lowest=-9223372036854775808 max=9223372036854775807\nunsigned bytes=4 lowest=0 max=4294967295\nfloat bytes=4 lowest=-3.40282e+038 max=3.40282e+038\ndouble bytes=8 lowest=-1.79769e+308 max=1.79769e+308\nauto journeys is long long: true\nINT_MAX=2147483647 LLONG_MAX=9223372036854775807\nNetwork maximum baseline total paise=10800000000\nFirst 3600-paise addition exceeding int: 596524\nn=20000 diagnostic Rs10.10 total=202000.000000071974 exact paise=20200000 error rupees=0.000000071974 whole-Rs36 error=0.000000000000\nn=500000 diagnostic Rs10.10 total=5049999.999995739199 exact paise=505000000 error rupees=-0.000004260801 whole-Rs36 error=0.000000000000\nn=3000000 diagnostic Rs10.10 total=30300000.001558292657 exact paise=3030000000 error rupees=0.001558292657 whole-Rs36 error=0.000000000000\nint + double + bool = 11.500000000000\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "bf80179298fbce21e5b6a20bc984ef43b2289f8979aad4f8f94c634e72d27a66"
+    "source_sha256": "bf80179298fbce21e5b6a20bc984ef43b2289f8979aad4f8f94c634e72d27a66",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task03\\main.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task03_main.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task03_main.exe"
+    ]
   }
 ]

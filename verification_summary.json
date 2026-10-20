@@ -1,0 +1,213 @@
+{
+  "compiler": "TDM64 GCC 4.9.2",
+  "language": "C++14",
+  "flags": [
+    "-std=c++14",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "-O2"
+  ],
+  "source_files": 19,
+  "working_executables": 18,
+  "executed_cases": 27,
+  "expected_compile_rejections": 1,
+  "baseline_checks_passed": 52,
+  "extension_checks_passed": 37,
+  "verification_cases": [
+    {
+      "task": 1,
+      "source": "main.cpp",
+      "case": "objects",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 2,
+      "source": "main.cpp",
+      "case": "constants",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 3,
+      "source": "main.cpp",
+      "case": "sizes_and_precision",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 4,
+      "source": "predict.cpp",
+      "case": "prediction_check",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 4,
+      "source": "corrected.cpp",
+      "case": "explicit_conversions",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 4,
+      "source": "narrowing_fail.cpp",
+      "expected_compile_rejection": true
+    },
+    {
+      "task": 5,
+      "source": "predict.cpp",
+      "case": "prediction_check",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 5,
+      "source": "expressions.cpp",
+      "case": "peak_lookup",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 6,
+      "source": "complete.cpp",
+      "case": "given_example",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 6,
+      "source": "boundaries.cpp",
+      "case": "extra_journeys",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 7,
+      "source": "procedural.cpp",
+      "case": "payments",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 7,
+      "source": "object_oriented.cpp",
+      "case": "payments",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 7,
+      "source": "public_balance.cpp",
+      "case": "invariant_violation",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 8,
+      "source": "main.cpp",
+      "case": "invalid_recovery",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 8,
+      "source": "main.cpp",
+      "case": "exact_reserve",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 8,
+      "source": "main.cpp",
+      "case": "low_balance",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 8,
+      "source": "main.cpp",
+      "case": "eof",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "task": 8,
+      "source": "getline_stoi.cpp",
+      "case": "strict_lines",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 9,
+      "source": "main.cpp",
+      "case": "all_tests",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 10,
+      "source": "main.cpp",
+      "case": "measured_totals",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 11,
+      "source": "config.cpp",
+      "case": "baseline_config",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 11,
+      "source": "config.cpp",
+      "case": "revised_config",
+      "exit": 0,
+      "passed": true
+    },
+    {
+      "task": 11,
+      "source": "config.cpp",
+      "case": "negative_config",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "task": 11,
+      "source": "config.cpp",
+      "case": "missing_fare_config",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "task": 11,
+      "source": "config.cpp",
+      "case": "trailing_config",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "task": 11,
+      "source": "config.cpp",
+      "case": "invalid_count",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "task": 11,
+      "source": "config.cpp",
+      "case": "missing_file",
+      "exit": 2,
+      "passed": true
+    },
+    {
+      "task": 12,
+      "source": "main.cpp",
+      "case": "extension_tests",
+      "exit": 0,
+      "passed": true
+    }
+  ]
+}

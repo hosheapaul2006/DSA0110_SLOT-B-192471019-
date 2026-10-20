@@ -4,35 +4,42 @@
     h2{font-size:17px;margin:26px 0 10px}pre{background:#11232d;color:#edf5f7;border-radius:8px;padding:20px;font:14px/1.55 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}
     footer{font-size:12px;margin-top:20px;color:#4d636d}</style></head><body><header><h1>Task 11 - Verified execution evidence</h1>
     <p>D Hoshea Paul | 192471019 | TDM64 GCC 4.9.2 | C++14</p><p>Actual captured stdout/stderr from compiled programs, displayed as an execution transcript.</p></header><h2>config.cpp / baseline_config</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe
-$ run config.cpp &lt; input.txt
+$ (working directory: Task11)
+$ ../build/Task11_config.exe fares.txt &lt; input.txt
 Configured zones: 3
 Outer peak fare Rs 36.00
 Allowed=true balance Rs 64.00
 
 Exit status: 0</pre><h2>config.cpp / revised_config</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe
-$ run config.cpp &lt; input.txt
+$ (working directory: Task11)
+$ ../build/Task11_config.exe revised_fares.txt &lt; input.txt
 Configured zones: 3
 Outer peak fare Rs 39.60
 Allowed=true balance Rs 60.40
 
 Exit status: 0</pre><h2>config.cpp / negative_config</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe
-$ run config.cpp &lt; input.txt
+$ (working directory: Task11)
+$ ../build/Task11_config.exe negative_fare.txt &lt; input.txt
 Configuration rejected: Invalid/missing fare
 
 Exit status: 2</pre><h2>config.cpp / missing_fare_config</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe
-$ run config.cpp &lt; input.txt
+$ (working directory: Task11)
+$ ../build/Task11_config.exe missing_fare.txt &lt; input.txt
 Configuration rejected: Invalid/missing fare
 
 Exit status: 2</pre><h2>config.cpp / trailing_config</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe
-$ run config.cpp &lt; input.txt
+$ (working directory: Task11)
+$ ../build/Task11_config.exe trailing_data.txt &lt; input.txt
 Configuration rejected: Unexpected trailing configuration data
 
 Exit status: 2</pre><h2>config.cpp / invalid_count</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe
-$ run config.cpp &lt; input.txt
+$ (working directory: Task11)
+$ ../build/Task11_config.exe invalid_count.txt &lt; input.txt
 Configuration rejected: Invalid zone count or unreadable file
 
 Exit status: 2</pre><h2>config.cpp / missing_file</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe
-$ run config.cpp &lt; input.txt
+$ (working directory: Task11)
+$ ../build/Task11_config.exe does_not_exist.txt &lt; input.txt
 Configuration rejected: Invalid zone count or unreadable file
 
-Exit status: 2</pre><footer>Source hashes, timestamps, commands and exit statuses are recorded in execution.json. This page displays captured execution; it is not a simulated console.</footer></body></html>
+Exit status: 2</pre><footer>Commands above use reproducible repository paths. Exact original command arguments, source hashes, timestamps and exit statuses are recorded in execution.json. This displays captured execution; it is not a simulated console.</footer></body></html>

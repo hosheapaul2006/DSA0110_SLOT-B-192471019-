@@ -10,6 +10,21 @@
     "stdout": "Accumulator bytes: int=4 long long=8 double=8\nCycle fares paise: 1200 2000 3600 1800 2880\njourneys,exact_paise,double_rupees,error_rupees,int_us,double_us,int_safe,first_int_overflow\n20000,45920000,459199.999999969092,-0.000000030908,12,51,yes,0\n500000,1148000000,11480000.000010456890,0.000010456890,292,1293,yes,0\n3000000,6888000000,68879999.999236658216,-0.000763341784,1768,7738,no,935316\nMicrobenchmark includes volatile reads/writes and loop overhead; not a gate throughput guarantee.\nHand total / overflow checks: PASS\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "fdaa856ebaa5b6bd35aea604bdb65141a59735f0023c65f755f2eb8bfb011d94"
+    "source_sha256": "fdaa856ebaa5b6bd35aea604bdb65141a59735f0023c65f755f2eb8bfb011d94",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task10\\main.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task10_main.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task10_main.exe"
+    ]
   }
 ]

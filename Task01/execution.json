@@ -10,6 +10,21 @@
     "stdout": "Passenger: D Hoshea Paul\nFare Rs 36.00\nJourney allowed: true\nBalance Rs 64.00\nUnaffordable trip denied: true\nBalance unchanged: true\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "40be35dc7a0d10c894bc851a1552b443deef2197971663eb98b6932422082b9f"
+    "source_sha256": "40be35dc7a0d10c894bc851a1552b443deef2197971663eb98b6932422082b9f",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task01\\main.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task01_main.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task01_main.exe"
+    ]
   }
 ]

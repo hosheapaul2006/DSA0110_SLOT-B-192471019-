@@ -10,6 +10,21 @@
     "stdout": "CASE|EXPECTED|ACTUAL|RESULT\nAirport weekday offpeak|60.00,pass=0,weekend=0,peak=0|60.00,pass=0,weekend=0,peak=0|PASS\nAirport weekday peak|72.00,pass=0,weekend=0,peak=1|72.00,pass=0,weekend=0,peak=1|PASS\nAirport Saturday peak replaced|54.00,pass=0,weekend=1,peak=0|54.00,pass=0,weekend=1,peak=0|PASS\nAirport Sunday offpeak|54.00,pass=0,weekend=1,peak=0|54.00,pass=0,weekend=1,peak=0|PASS\nStudent Airport weekend|48.60,pass=0,weekend=1,peak=0|48.60,pass=0,weekend=1,peak=0|PASS\nSenior Airport peak|57.60,pass=0,weekend=0,peak=1|57.60,pass=0,weekend=0,peak=1|PASS\nPass covered weekday|0.00,pass=1,weekend=0,peak=0|0.00,pass=1,weekend=0,peak=0|PASS\nPass covered weekend|0.00,pass=1,weekend=0,peak=0|0.00,pass=1,weekend=0,peak=0|PASS\nPass last day|0.00,pass=1,weekend=0,peak=0|0.00,pass=1,weekend=0,peak=0|PASS\nPass first day|0.00,pass=1,weekend=0,peak=0|0.00,pass=1,weekend=0,peak=0|PASS\nPass next month expires|18.00,pass=0,weekend=1,peak=0|18.00,pass=0,weekend=1,peak=0|PASS\nPass wrong year|24.00,pass=0,weekend=0,peak=1|24.00,pass=0,weekend=0,peak=1|PASS\nPass uncovered third zone|36.00,pass=0,weekend=0,peak=1|36.00,pass=0,weekend=0,peak=1|PASS\nNonadjacent pass crosses Middle|30.00,pass=0,weekend=0,peak=0|30.00,pass=0,weekend=0,peak=0|PASS\nSame selected zone covered|0.00,pass=1,weekend=0,peak=0|0.00,pass=1,weekend=0,peak=0|PASS\nBaseline Inner retained|10.00,pass=0,weekend=0,peak=0|10.00,pass=0,weekend=0,peak=0|PASS\nBaseline Middle retained|20.00,pass=0,weekend=0,peak=0|20.00,pass=0,weekend=0,peak=0|PASS\nBaseline Outer retained|30.00,pass=0,weekend=0,peak=0|30.00,pass=0,weekend=0,peak=0|PASS\nPass at reserve accepted|1|1|PASS\nPass reserve unchanged|5000|5000|PASS\nPass below reserve denied|0|0|PASS\nAirport peak exact reserve|1|1|PASS\nAirport balance exact reserve|5000|5000|PASS\nAirport one paisa short denied|0|0|PASS\nAirport denied balance unchanged|12199|12199|PASS\n1000 pass trips have no count limit|1|1|PASS\n2026-10-24 is weekend|1|1|PASS\n2026-10-20 is weekday|0|0|PASS\nLeap day 2024 valid|1|1|PASS\nNonleap day 2026 invalid|0|0|PASS\nCentury 1900 not leap|0|0|PASS\nCentury 2000 leap|1|1|PASS\nReject invalid date even with pass|1|1|PASS\nReject unknown fourth-zone enum|1|1|PASS\nReject invalid time even with pass|1|1|PASS\nReject invalid pass month|1|1|PASS\nReject duplicate pass zones|1|1|PASS\nSUMMARY 37/37 passed\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "469d9f161abcdfeccbbfb8ddd48841cfdaf280208abcf2e093c1707fc50c0088"
+    "source_sha256": "469d9f161abcdfeccbbfb8ddd48841cfdaf280208abcf2e093c1707fc50c0088",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task12\\main.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task12_main.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task12_main.exe"
+    ]
   }
 ]

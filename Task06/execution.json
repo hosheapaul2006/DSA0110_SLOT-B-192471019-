@@ -10,7 +10,22 @@
     "stdout": "Fare Rs 10.00  balance Rs 90\nFare Rs 36.00  balance Rs 54\nDenied (low balance)  balance Rs 54\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "356cf4835b9bb50605f006bebc9e123970eaee37b724a0c51fc0f214cfb4528a"
+    "source_sha256": "356cf4835b9bb50605f006bebc9e123970eaee37b724a0c51fc0f214cfb4528a",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task06\\complete.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task06_complete.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task06_complete.exe"
+    ]
   },
   {
     "source": "boundaries.cpp",
@@ -23,6 +38,21 @@
     "stdout": "10:00 peak=false fare Rs 30.00 allowed=true balance Rs 50.00\n20:00 peak=false fare Rs 30.00 allowed=true balance Rs 50.00\nSwitch/array and time checks: 5/5\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "060d577470390892fdaafa3d0934ceb1fe448041f3155ca483a4e855351e3232"
+    "source_sha256": "060d577470390892fdaafa3d0934ceb1fe448041f3155ca483a4e855351e3232",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task06\\boundaries.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task06_boundaries.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task06_boundaries.exe"
+    ]
   }
 ]

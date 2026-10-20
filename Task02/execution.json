@@ -10,6 +10,21 @@
     "stdout": "Fares (paise): 1000 2000 3000\nMacro/const/constexpr: 20 20 20\nLegacy enum index: 0\nScoped zone index (explicit): 0\nMinimum Rs 50.00\nStudent Inner peak Rs 10.80\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "a64db596f40606ace467685f821a05c235f88b6403efa6c42aba68cd6cea9e8f"
+    "source_sha256": "a64db596f40606ace467685f821a05c235f88b6403efa6c42aba68cd6cea9e8f",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task02\\main.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task02_main.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task02_main.exe"
+    ]
   }
 ]

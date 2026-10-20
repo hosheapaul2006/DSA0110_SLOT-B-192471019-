@@ -4,7 +4,8 @@
     h2{font-size:17px;margin:26px 0 10px}pre{background:#11232d;color:#edf5f7;border-radius:8px;padding:20px;font:14px/1.55 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}
     footer{font-size:12px;margin-top:20px;color:#4d636d}</style></head><body><header><h1>Task 08 - Verified execution evidence</h1>
     <p>D Hoshea Paul | 192471019 | TDM64 GCC 4.9.2 | C++14</p><p>Actual captured stdout/stderr from compiled programs, displayed as an execution transcript.</p></header><h2>main.cpp / invalid_recovery</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe
-$ run main.cpp &lt; input.txt
+$ (working directory: Task08)
+$ ../build/Task08_main.exe &lt; input.txt
 [input]
 abc
 10000
@@ -30,7 +31,8 @@ Allowed         16.00           84.00
 Display precision example: 1.00
 
 Exit status: 0</pre><h2>main.cpp / exact_reserve</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe
-$ run main.cpp &lt; exact_reserve.txt
+$ (working directory: Task08)
+$ ../build/Task08_main.exe &lt; exact_reserve.txt
 [input]
 6000
 0
@@ -46,7 +48,8 @@ Allowed         10.00           50.00
 Display precision example: 1.00
 
 Exit status: 0</pre><h2>main.cpp / low_balance</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe
-$ run main.cpp &lt; low_balance.txt
+$ (working directory: Task08)
+$ ../build/Task08_main.exe &lt; low_balance.txt
 [input]
 5999
 0
@@ -62,11 +65,13 @@ Denied          10.00           59.99
 Display precision example: 1.00
 
 Exit status: 0</pre><h2>main.cpp / eof</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/main.cpp -o build/Task08_main.exe
-$ run main.cpp &lt; eof.txt
+$ (working directory: Task08)
+$ ../build/Task08_main.exe &lt; eof.txt
 Balance in paise: End of input
 
 Exit status: 2</pre><h2>getline_stoi.cpp / strict_lines</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task08/getline_stoi.cpp -o build/Task08_getline_stoi.exe
-$ run getline_stoi.cpp &lt; line_input.txt
+$ (working directory: Task08)
+$ ../build/Task08_getline_stoi.exe &lt; line_input.txt
 [input]
 abc
 24
@@ -81,4 +86,4 @@ Integer/hour out of range
 Invalid integer line
 Accepted hour 10
 
-Exit status: 0</pre><footer>Source hashes, timestamps, commands and exit statuses are recorded in execution.json. This page displays captured execution; it is not a simulated console.</footer></body></html>
+Exit status: 0</pre><footer>Commands above use reproducible repository paths. Exact original command arguments, source hashes, timestamps and exit statuses are recorded in execution.json. This displays captured execution; it is not a simulated console.</footer></body></html>

@@ -10,7 +10,25 @@
     "stdout": "Configured zones: 3\nOuter peak fare Rs 36.00\nAllowed=true balance Rs 64.00\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task11\\config.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe"
+    ],
+    "runtime_arguments": [
+      "fares.txt"
+    ],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe",
+      "fares.txt"
+    ]
   },
   {
     "source": "config.cpp",
@@ -23,7 +41,25 @@
     "stdout": "Configured zones: 3\nOuter peak fare Rs 39.60\nAllowed=true balance Rs 60.40\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task11\\config.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe"
+    ],
+    "runtime_arguments": [
+      "revised_fares.txt"
+    ],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe",
+      "revised_fares.txt"
+    ]
   },
   {
     "source": "config.cpp",
@@ -36,7 +72,25 @@
     "stdout": "Configuration rejected: Invalid/missing fare\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task11\\config.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe"
+    ],
+    "runtime_arguments": [
+      "negative_fare.txt"
+    ],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe",
+      "negative_fare.txt"
+    ]
   },
   {
     "source": "config.cpp",
@@ -49,7 +103,25 @@
     "stdout": "Configuration rejected: Invalid/missing fare\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task11\\config.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe"
+    ],
+    "runtime_arguments": [
+      "missing_fare.txt"
+    ],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe",
+      "missing_fare.txt"
+    ]
   },
   {
     "source": "config.cpp",
@@ -62,7 +134,25 @@
     "stdout": "Configuration rejected: Unexpected trailing configuration data\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task11\\config.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe"
+    ],
+    "runtime_arguments": [
+      "trailing_data.txt"
+    ],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe",
+      "trailing_data.txt"
+    ]
   },
   {
     "source": "config.cpp",
@@ -75,7 +165,25 @@
     "stdout": "Configuration rejected: Invalid zone count or unreadable file\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task11\\config.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe"
+    ],
+    "runtime_arguments": [
+      "invalid_count.txt"
+    ],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe",
+      "invalid_count.txt"
+    ]
   },
   {
     "source": "config.cpp",
@@ -88,6 +196,24 @@
     "stdout": "Configuration rejected: Invalid zone count or unreadable file\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task11\\config.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe"
+    ],
+    "runtime_arguments": [
+      "does_not_exist.txt"
+    ],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task11_config.exe",
+      "does_not_exist.txt"
+    ]
   }
 ]

@@ -4,7 +4,8 @@
     h2{font-size:17px;margin:26px 0 10px}pre{background:#11232d;color:#edf5f7;border-radius:8px;padding:20px;font:14px/1.55 Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere}
     footer{font-size:12px;margin-top:20px;color:#4d636d}</style></head><body><header><h1>Task 05 - Verified execution evidence</h1>
     <p>D Hoshea Paul | 192471019 | TDM64 GCC 4.9.2 | C++14</p><p>Actual captured stdout/stderr from compiled programs, displayed as an execution transcript.</p></header><h2>predict.cpp / prediction_check</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task05/predict.cpp -o build/Task05_predict.exe
-$ run predict.cpp &lt; input.txt
+$ (working directory: Task05)
+$ ../build/Task05_predict.exe &lt; input.txt
 11 16
 9 6 4
 6 4
@@ -12,7 +13,8 @@ $ run predict.cpp &lt; input.txt
 18
 
 Exit status: 0</pre><h2>expressions.cpp / peak_lookup</h2><pre>$ g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task05/expressions.cpp -o build/Task05_expressions.exe
-$ run expressions.cpp &lt; input.txt
+$ (working directory: Task05)
+$ ../build/Task05_expressions.exe &lt; input.txt
 Lookup vs expression matches: 24/24
 Lookup storage bytes: 24
 Hour 8 peak=true
@@ -23,4 +25,4 @@ Student Outer peak Rs 32.40
 Senior Outer offpeak Rs 24.00
 Invalid hour rejected: true
 
-Exit status: 0</pre><footer>Source hashes, timestamps, commands and exit statuses are recorded in execution.json. This page displays captured execution; it is not a simulated console.</footer></body></html>
+Exit status: 0</pre><footer>Commands above use reproducible repository paths. Exact original command arguments, source hashes, timestamps and exit statuses are recorded in execution.json. This displays captured execution; it is not a simulated console.</footer></body></html>

@@ -13,7 +13,22 @@
     "source_sha256": "d477609763a5151c74448ed463e8871921e7d75ae885facdb76ef77b77719e96",
     "prediction_sha256": "0d9ad389e09fe4313974ac322a13684ed88f6941fea8afce4d102982a70c0412",
     "prediction_commit": "17c338d66d27994e5584a5e7aa688ec802cf6820",
-    "prediction_matches": true
+    "prediction_matches": true,
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task04\\predict.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task04_predict.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task04_predict.exe"
+    ]
   },
   {
     "source": "corrected.cpp",
@@ -26,13 +41,40 @@
     "stdout": "3.5 3.5\nC 68\n1 true\ns < u\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "93526a6447eaf38d71be70c0622d38ae7da1d3531e4352da476501e47340585f"
+    "source_sha256": "93526a6447eaf38d71be70c0622d38ae7da1d3531e4352da476501e47340585f",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task04\\corrected.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task04_corrected.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task04_corrected.exe"
+    ]
   },
   {
     "source": "narrowing_fail.cpp",
     "command": "g++ -pedantic-errors -std=c++14 -Wall -Wextra -pedantic -O2 Task04/narrowing_fail.cpp -o build/Task04_narrowing_fail.exe",
     "compile_exit": 1,
     "diagnostics": "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task04\\narrowing_fail.cpp: In function 'int main()':\nC:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task04\\narrowing_fail.cpp:3:14: error: narrowing conversion of '3.7000000000000002e+0' from 'double' to 'int' inside { } [-Wnarrowing]\n     int x{3.7};\n              ^\n",
-    "expected_failure": true
+    "expected_failure": true,
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-pedantic-errors",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task04\\narrowing_fail.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task04_narrowing_fail.exe"
+    ]
   }
 ]

@@ -10,7 +10,22 @@
     "stdout": "Balance in paise: Invalid number; try again\nBalance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Out of range; try again\nZone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Invalid number; try again\nHour (0-23): Unexpected trailing characters; try again\nHour (0-23): Minute (0-59): Out of range; try again\nMinute (0-59): Category (0 Regular, 1 Student, 2 Senior): \nJOURNEY REPORT\nStatus          Fare (Rs)       Balance (Rs)\nAllowed         16.00           84.00\nDisplay precision example: 1.00\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc"
+    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task08\\main.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task08_main.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task08_main.exe"
+    ]
   },
   {
     "source": "main.cpp",
@@ -23,7 +38,22 @@
     "stdout": "Balance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Minute (0-59): Category (0 Regular, 1 Student, 2 Senior): \nJOURNEY REPORT\nStatus          Fare (Rs)       Balance (Rs)\nAllowed         10.00           50.00\nDisplay precision example: 1.00\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc"
+    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task08\\main.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task08_main.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task08_main.exe"
+    ]
   },
   {
     "source": "main.cpp",
@@ -36,7 +66,22 @@
     "stdout": "Balance in paise: Zone (0 Inner, 1 Middle, 2 Outer): Hour (0-23): Minute (0-59): Category (0 Regular, 1 Student, 2 Senior): \nJOURNEY REPORT\nStatus          Fare (Rs)       Balance (Rs)\nDenied          10.00           59.99\nDisplay precision example: 1.00\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc"
+    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task08\\main.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task08_main.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task08_main.exe"
+    ]
   },
   {
     "source": "main.cpp",
@@ -49,7 +94,22 @@
     "stdout": "Balance in paise: End of input\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc"
+    "source_sha256": "364c14fcc7bb3e2c2eb267852a7bab21d73126a026c5b53aca5f37c7f3461bfc",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task08\\main.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task08_main.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task08_main.exe"
+    ]
   },
   {
     "source": "getline_stoi.cpp",
@@ -62,6 +122,21 @@
     "stdout": "Invalid integer line\nInteger/hour out of range\nInteger/hour out of range\nInvalid integer line\nAccepted hour 10\n",
     "stderr": "",
     "diagnostics": "",
-    "source_sha256": "3735a94d82ac5853999b73b31a7a13b4de99e6edfeef4d6fca2aa401a1ae4b92"
+    "source_sha256": "3735a94d82ac5853999b73b31a7a13b4de99e6edfeef4d6fca2aa401a1ae4b92",
+    "actual_compile_argv": [
+      "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\g++.exe",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-O2",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\outputs\\DSA01-192471019-Assignment1\\Task08\\getline_stoi.cpp",
+      "-o",
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task08_getline_stoi.exe"
+    ],
+    "runtime_arguments": [],
+    "actual_run_argv": [
+      "C:\\Users\\hoshe\\Documents\\Codex\\2026-10-20\\https-github-com-hosheapaul2006-dsa0110-slot-6\\work\\bin\\Task08_getline_stoi.exe"
+    ]
   }
 ]
