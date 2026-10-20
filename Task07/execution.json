@@ -1,0 +1,41 @@
+[
+  {
+    "source": "procedural.cpp",
+    "case": "payments",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task07/procedural.cpp -o build/Task07_procedural.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:20:24.751304+00:00",
+    "exit": 0,
+    "stdout": "Fare paise 1000 accepted=true balance Rs 90.00\nFare paise 3600 accepted=true balance Rs 54.00\nFare paise 2000 accepted=false balance Rs 54.00\nFare paise -1 accepted=false balance Rs 54.00\nBalance storage bytes: 8\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "700813d7fad4e19df217734a42eb9b5f2700c1d75db3746f7aa1c88c6b9a5dcc"
+  },
+  {
+    "source": "object_oriented.cpp",
+    "case": "payments",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task07/object_oriented.cpp -o build/Task07_object_oriented.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:20:25.497247+00:00",
+    "exit": 0,
+    "stdout": "Fare paise 1000 accepted=true balance Rs 90.00\nFare paise 3600 accepted=true balance Rs 54.00\nFare paise 2000 accepted=false balance Rs 54.00\nFare paise -1 accepted=false balance Rs 54.00\nBalance storage bytes: 8\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "2d7730c7e385ecbec815c2f669dc979b0c9d5570ef4a4a14814df7ff8813a4cb"
+  },
+  {
+    "source": "public_balance.cpp",
+    "case": "invariant_violation",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task07/public_balance.cpp -o build/Task07_public_balance.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:20:26.265428+00:00",
+    "exit": 0,
+    "stdout": "Public member allows balance=-1 paise\nPublic/private object bytes: 8/8\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "3218fef1985c52ee279ef1b7e6098dd49937a9e06a589d8cf8d9e3f59662ad20"
+  }
+]

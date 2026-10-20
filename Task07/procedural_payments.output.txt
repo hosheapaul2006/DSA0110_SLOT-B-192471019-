@@ -1,0 +1,5 @@
+Fare paise 1000 accepted=true balance Rs 90.00
+Fare paise 3600 accepted=true balance Rs 54.00
+Fare paise 2000 accepted=false balance Rs 54.00
+Fare paise -1 accepted=false balance Rs 54.00
+Balance storage bytes: 8

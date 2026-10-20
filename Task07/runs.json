@@ -1,0 +1,5 @@
+[
+ {"source":"procedural.cpp","cases":[{"name":"payments","input":"input.txt","expected":"Fare paise 1000 accepted=true balance Rs 90.00\nFare paise 3600 accepted=true balance Rs 54.00\nFare paise 2000 accepted=false balance Rs 54.00\nFare paise -1 accepted=false balance Rs 54.00\nBalance storage bytes: 8\n"}]},
+ {"source":"object_oriented.cpp","cases":[{"name":"payments","input":"input.txt","expected":"Fare paise 1000 accepted=true balance Rs 90.00\nFare paise 3600 accepted=true balance Rs 54.00\nFare paise 2000 accepted=false balance Rs 54.00\nFare paise -1 accepted=false balance Rs 54.00\nBalance storage bytes: 8\n"}]},
+ {"source":"public_balance.cpp","cases":[{"name":"invariant_violation","input":"input.txt"}]}
+]
