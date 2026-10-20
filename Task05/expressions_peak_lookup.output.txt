@@ -1,0 +1,9 @@
+Lookup vs expression matches: 24/24
+Lookup storage bytes: 24
+Hour 8 peak=true
+Hour 10 peak=false
+Hour 17 peak=true
+Hour 20 peak=false
+Student Outer peak Rs 32.40
+Senior Outer offpeak Rs 24.00
+Invalid hour rejected: true
