@@ -1,0 +1,17 @@
+Before execution: repeat this five-fare cycle, in paise:
+1200, 2000, 3600, 1800, 2880. Sum = 11480 paise (Rs114.80).
+
+20000 journeys: 4000 cycles -> 45920000 paise = Rs459200.00.
+500000 journeys: 100000 cycles -> 1148000000 paise = Rs11480000.00.
+3000000 journeys: 600000 cycles -> 6888000000 paise = Rs68880000.00.
+
+32-bit int paise fits the first two totals and cannot hold the last total.
+The first unsafe addition in this repeated sequence is journey 935316:
+187063 complete cycles = 2147483240 paise at journey 935315;
+adding the next 1200 exceeds INT_MAX = 2147483647.
+long long paise safely holds all three totals.
+double rupees may differ slightly because 28.8 has no exact finite binary
+representation; the sign and magnitude will be measured rather than guessed.
+For comparison, repeating regular Outer peak Rs36 yields exact double totals
+within these magnitudes. Rounding error is input-dependent.
+Every addition is O(1); n additions are O(n); each accumulator is O(1) space.
