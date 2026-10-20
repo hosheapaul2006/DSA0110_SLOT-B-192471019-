@@ -1,0 +1,4 @@
+C:\Users\hoshe\Documents\Codex\2026-10-20\https-github-com-hosheapaul2006-dsa0110-slot-6\outputs\DSA01-192471019-Assignment1\Task04\narrowing_fail.cpp: In function 'int main()':
+C:\Users\hoshe\Documents\Codex\2026-10-20\https-github-com-hosheapaul2006-dsa0110-slot-6\outputs\DSA01-192471019-Assignment1\Task04\narrowing_fail.cpp:3:14: error: narrowing conversion of '3.7000000000000002e+0' from 'double' to 'int' inside { } [-Wnarrowing]
+     int x{3.7};
+              ^

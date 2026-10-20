@@ -1,0 +1,4 @@
+C:\Users\hoshe\Documents\Codex\2026-10-20\https-github-com-hosheapaul2006-dsa0110-slot-6\outputs\DSA01-192471019-Assignment1\Task04\predict.cpp: In function 'int main()':
+C:\Users\hoshe\Documents\Codex\2026-10-20\https-github-com-hosheapaul2006-dsa0110-slot-6\outputs\DSA01-192471019-Assignment1\Task04\predict.cpp:18:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     std::cout << (s < u ? "s < u" : "s >= u") << '\n';
+                     ^
