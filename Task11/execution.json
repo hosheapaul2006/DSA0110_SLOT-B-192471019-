@@ -1,0 +1,93 @@
+[
+  {
+    "source": "config.cpp",
+    "case": "baseline_config",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:26:11.682721+00:00",
+    "exit": 0,
+    "stdout": "Configured zones: 3\nOuter peak fare Rs 36.00\nAllowed=true balance Rs 64.00\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+  },
+  {
+    "source": "config.cpp",
+    "case": "revised_config",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:26:12.134059+00:00",
+    "exit": 0,
+    "stdout": "Configured zones: 3\nOuter peak fare Rs 39.60\nAllowed=true balance Rs 60.40\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+  },
+  {
+    "source": "config.cpp",
+    "case": "negative_config",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:26:12.149325+00:00",
+    "exit": 2,
+    "stdout": "Configuration rejected: Invalid/missing fare\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+  },
+  {
+    "source": "config.cpp",
+    "case": "missing_fare_config",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:26:12.162125+00:00",
+    "exit": 2,
+    "stdout": "Configuration rejected: Invalid/missing fare\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+  },
+  {
+    "source": "config.cpp",
+    "case": "trailing_config",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:26:12.173547+00:00",
+    "exit": 2,
+    "stdout": "Configuration rejected: Unexpected trailing configuration data\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+  },
+  {
+    "source": "config.cpp",
+    "case": "invalid_count",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:26:12.186466+00:00",
+    "exit": 2,
+    "stdout": "Configuration rejected: Invalid zone count or unreadable file\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+  },
+  {
+    "source": "config.cpp",
+    "case": "missing_file",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task11/config.cpp -o build/Task11_config.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:26:12.200894+00:00",
+    "exit": 2,
+    "stdout": "Configuration rejected: Invalid zone count or unreadable file\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "f99ec406f00c43fa75b5eba2c0fa61df86589691e30f1f57e3d11e9ff11469ea"
+  }
+]

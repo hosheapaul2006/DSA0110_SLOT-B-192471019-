@@ -1,0 +1,9 @@
+[{"source":"config.cpp","cases":[
+ {"name":"baseline_config","input":"input.txt","args":["fares.txt"],"expected":"Configured zones: 3\nOuter peak fare Rs 36.00\nAllowed=true balance Rs 64.00\n"},
+ {"name":"revised_config","input":"input.txt","args":["revised_fares.txt"],"expected":"Configured zones: 3\nOuter peak fare Rs 39.60\nAllowed=true balance Rs 60.40\n"},
+ {"name":"negative_config","input":"input.txt","args":["negative_fare.txt"],"exit":2,"expected_contains":["Configuration rejected: Invalid/missing fare"]},
+ {"name":"missing_fare_config","input":"input.txt","args":["missing_fare.txt"],"exit":2,"expected_contains":["Configuration rejected: Invalid/missing fare"]},
+ {"name":"trailing_config","input":"input.txt","args":["trailing_data.txt"],"exit":2,"expected_contains":["Configuration rejected: Unexpected trailing configuration data"]},
+ {"name":"invalid_count","input":"input.txt","args":["invalid_count.txt"],"exit":2,"expected_contains":["Configuration rejected: Invalid zone count"]},
+ {"name":"missing_file","input":"input.txt","args":["does_not_exist.txt"],"exit":2,"expected_contains":["Configuration rejected: Invalid zone count"]}
+]}]

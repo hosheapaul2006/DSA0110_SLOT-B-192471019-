@@ -1,0 +1,3 @@
+Configured zones: 3
+Outer peak fare Rs 36.00
+Allowed=true balance Rs 64.00
