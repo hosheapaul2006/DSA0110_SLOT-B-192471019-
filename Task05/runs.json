@@ -1,0 +1,4 @@
+[
+ {"source":"predict.cpp","prediction":"prediction.txt","cases":[{"name":"prediction_check","input":"input.txt","expected":"11 16\n9 6 4\n6 4\n3 1 -3 -1\n18\n"}]},
+ {"source":"expressions.cpp","cases":[{"name":"peak_lookup","input":"input.txt"}]}
+]
