@@ -1,0 +1,5 @@
+[
+ {"source":"predict.cpp","prediction":"prediction.txt","cases":[{"name":"prediction_check","input":"input.txt","expected":"3 3.5\nC 68\n1 true\ns >= u\n"}]},
+ {"source":"corrected.cpp","cases":[{"name":"explicit_conversions","input":"input.txt","expected":"3.5 3.5\nC 68\n1 true\ns < u\n"}]},
+ {"source":"narrowing_fail.cpp","compile_failure":true}
+]
