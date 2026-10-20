@@ -1,0 +1,26 @@
+classDiagram
+class Passenger {
+  +string name
+  +Category category
+}
+class SmartCard {
+  -long long balance_
+  +balance() long long
+  +canTravel(fare) bool
+  +deduct(fare) bool
+  +recharge(amount) bool
+}
+class Journey {
+  +Zone zone
+  +int hour
+  +int minute
+  +Category category
+}
+class FareTable {
+  +base(zone) long long
+  +quote(zone, hour, category, minute) long long
+}
+Passenger --> SmartCard : uses
+Passenger --> Journey : takes
+Journey --> FareTable : requests quote
+FareTable --> SmartCard : fare paid through deduct

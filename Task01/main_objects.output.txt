@@ -1,0 +1,6 @@
+Passenger: D Hoshea Paul
+Fare Rs 36.00
+Journey allowed: true
+Balance Rs 64.00
+Unaffordable trip denied: true
+Balance unchanged: true

@@ -1,0 +1,1 @@
+[{"source":"main.cpp","cases":[{"name":"objects","input":"input.txt","expected":"Passenger: D Hoshea Paul\nFare Rs 36.00\nJourney allowed: true\nBalance Rs 64.00\nUnaffordable trip denied: true\nBalance unchanged: true\n"}]}]

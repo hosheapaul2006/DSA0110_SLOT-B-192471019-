@@ -1,0 +1,15 @@
+[
+  {
+    "source": "main.cpp",
+    "case": "objects",
+    "command": "g++ -std=c++14 -Wall -Wextra -pedantic -O2 Task01/main.cpp -o build/Task01_main.exe",
+    "input_file": "input.txt",
+    "input": "",
+    "started_utc": "2026-10-20T14:11:59.024645+00:00",
+    "exit": 0,
+    "stdout": "Passenger: D Hoshea Paul\nFare Rs 36.00\nJourney allowed: true\nBalance Rs 64.00\nUnaffordable trip denied: true\nBalance unchanged: true\n",
+    "stderr": "",
+    "diagnostics": "",
+    "source_sha256": "40be35dc7a0d10c894bc851a1552b443deef2197971663eb98b6932422082b9f"
+  }
+]
